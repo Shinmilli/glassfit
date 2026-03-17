@@ -1,661 +1,808 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>글라스핏 - 당신의 공간, 우리가 빛나게 합니다</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div class="header-content">
-            <img src="images/Img_files_logo_header.png" alt="글라스핏 로고" class="logo-img">
-            <nav>
-                <ul>
-                    <li><a href="#about">서비스 소개</a></li>
-                    <li><a href="#beforeafter">작업 사례</a></li>
-                    <li><a href="#pricing">가격 안내</a></li>
-                    <li><a href="#process">서비스 과정</a></li>
-                    <li><a href="#team">팀 소개</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="header-content">
+        <img
+          src="images/Img_files_logo_header.png"
+          alt="글라스핏 로고"
+          class="logo-img"
+        />
+        <nav>
+          <ul>
+            <li><a href="#about">서비스 소개</a></li>
+            <li><a href="#beforeafter">작업 사례</a></li>
+            <li><a href="#pricing">가격 안내</a></li>
+            <li><a href="#process">서비스 과정</a></li>
+            <li><a href="#team">팀 소개</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-        <div class="hero-content">
-            <img src="images/Img_files_logo_hero.png" alt="글라스핏 로고" class="hero-logo">
-            <h1>GLASS FIT</h1>
-            <p class="subtitle">당신의 공간, 우리가 빛나게 합니다</p>
-            <p class="tagline">유리창 각종 오염 문제를 해결하는 맞춤형 클리닝 서비스</p>
-            <div class="keywords">
-                <span class="keyword-tag">#유리창청소</span>
-                <span class="keyword-tag">#오염제거</span>
-                <span class="keyword-tag">#서비스개선</span>
-                <span class="keyword-tag">#매장관리</span>
-                <span class="keyword-tag">#전문청소</span>
-            </div>
+      <div class="hero-content">
+        <img
+          src="images/Img_files_logo_hero.png"
+          alt="글라스핏 로고"
+          class="hero-logo"
+        />
+        <h1>GLASS FIT</h1>
+        <p class="subtitle">당신의 공간, 우리가 빛나게 합니다</p>
+        <p class="tagline">
+          유리창 각종 오염 문제를 해결하는 맞춤형 클리닝 서비스
+        </p>
+        <div class="keywords">
+          <span class="keyword-tag">#유리창청소</span>
+          <span class="keyword-tag">#오염제거</span>
+          <span class="keyword-tag">#서비스개선</span>
+          <span class="keyword-tag">#매장관리</span>
+          <span class="keyword-tag">#전문청소</span>
         </div>
+      </div>
     </section>
 
     <!-- Before After Section -->
     <section id="beforeafter">
-        <div class="section-wrapper">
-            <h2 class="section-title">실제 작업 사례</h2>
-            <p class="section-subtitle">글라스핏의 전문 청소 효과를 직접 확인하세요</p>
-            
-            <div class="ba-grid fade-in">
-                <div class="ba-large">
-                    <img src="images/Img_files_section_01.jpg" alt="청소 전 - 오염된 유리창" class="image-clickable" onclick="openLightbox(this, 'Before')">
-                    <div class="ba-label">Before</div>
-                </div>
-                <div class="ba-small-container">
-                    <div class="ba-small">
-                        <img src="images/Img_files_section_02.jpg" alt="청소 후 - 투명하고 깨끗한 유리창" class="image-clickable" onclick="openLightbox(this, 'After')">
-                        <div class="ba-label" style="bottom: 20px; left: 20px; font-size: 1.1rem; padding: 12px 24px;">After</div>
-                    </div>
-                    <div class="ba-description">
-                        <h3>압도적인 차이</h3>
-                        <p>오염과 먼지로 어두웠던 매장이 투명하고 깨끗한 유리창으로 환하게 변화합니다. 고객 만족도와 매출 증가를 동시에 경험하세요.</p>
-                    </div>
-                </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">실제 작업 사례</h2>
+        <p class="section-subtitle">
+          글라스핏의 전문 청소 효과를 직접 확인하세요
+        </p>
+
+        <div class="ba-grid fade-in">
+          <div class="ba-large">
+            <img
+              src="images/Img_files_section_01.jpg"
+              alt="청소 전 - 오염된 유리창"
+              class="image-clickable"
+              onclick="openLightbox(this, 'Before')"
+            />
+            <div class="ba-label">Before</div>
+          </div>
+          <div class="ba-small-container">
+            <div class="ba-small">
+              <img
+                src="images/Img_files_section_02.jpg"
+                alt="청소 후 - 투명하고 깨끗한 유리창"
+                class="image-clickable"
+                onclick="openLightbox(this, 'After')"
+              />
+              <div
+                class="ba-label"
+                style="
+                  bottom: 20px;
+                  left: 20px;
+                  font-size: 1.1rem;
+                  padding: 12px 24px;
+                "
+              >
+                After
+              </div>
             </div>
+            <div class="ba-description">
+              <h3>압도적인 차이</h3>
+              <p>
+                오염과 먼지로 어두웠던 매장이 투명하고 깨끗한 유리창으로 환하게
+                변화합니다. 고객 만족도와 매출 증가를 동시에 경험하세요.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Lightbox -->
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="lightbox-close">&times;</span>
-        <img id="lightbox-img" src="" alt="" class="lightbox-content" onclick="event.stopPropagation()">
-        <div id="lightbox-label" class="lightbox-label"></div>
+      <span class="lightbox-close">&times;</span>
+      <img
+        id="lightbox-img"
+        src=""
+        alt=""
+        class="lightbox-content"
+        onclick="event.stopPropagation()"
+      />
+      <div id="lightbox-label" class="lightbox-label"></div>
     </div>
 
     <!-- Problem Section -->
     <section id="problem">
-        <div class="section-wrapper">
-            <h2 class="section-title">해결하고자 한 문제</h2>
-            <p class="section-subtitle">유리창이 더러울 때 발생하는 실질적인 손실</p>
-            
-            <div class="problem-stack">
-                <div class="problem-card fade-in">
-                    <div class="problem-header">
-                        <div class="problem-icon">😤</div>
-                        <h3>매출 감소</h3>
-                    </div>
-                    <p>고객 매장 체류시간 하락과 고객의 시선을 빼앗지 못함으로 인해 잠재고객을 놓칠 가능성이 높습니다</p>
-                </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">해결하고자 한 문제</h2>
+        <p class="section-subtitle">
+          유리창이 더러울 때 발생하는 실질적인 손실
+        </p>
 
-                <div class="problem-card fade-in">
-                    <div class="problem-header">
-                        <div class="problem-icon">😔</div>
-                        <h3>고객 만족도 하락</h3>
-                    </div>
-                    <p>고객에게 시각적 불편함을 줄 수 있습니다. 유리창이 더러우면 음식에 대한 불안감도 증가합니다</p>
-                </div>
-
-                <div class="problem-card fade-in">
-                    <div class="problem-header">
-                        <div class="problem-icon">💸</div>
-                        <h3>비싼 가격</h3>
-                    </div>
-                    <p>작업 난이도에 따라 부르는게 가격입니다. 명확한 가격 체계가 필요합니다</p>
-                </div>
+        <div class="problem-stack">
+          <div class="problem-card fade-in">
+            <div class="problem-header">
+              <div class="problem-icon">😤</div>
+              <h3>매출 감소</h3>
             </div>
+            <p>
+              고객 매장 체류시간 하락과 고객의 시선을 빼앗지 못함으로 인해
+              잠재고객을 놓칠 가능성이 높습니다
+            </p>
+          </div>
+
+          <div class="problem-card fade-in">
+            <div class="problem-header">
+              <div class="problem-icon">😔</div>
+              <h3>고객 만족도 하락</h3>
+            </div>
+            <p>
+              고객에게 시각적 불편함을 줄 수 있습니다. 유리창이 더러우면 음식에
+              대한 불안감도 증가합니다
+            </p>
+          </div>
+
+          <div class="problem-card fade-in">
+            <div class="problem-header">
+              <div class="problem-icon">💸</div>
+              <h3>비싼 가격</h3>
+            </div>
+            <p>
+              작업 난이도에 따라 부르는게 가격입니다. 명확한 가격 체계가
+              필요합니다
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Solution Section -->
     <section id="solution">
-        <div class="section-wrapper">
-            <h2 class="section-title">우리의 해결책</h2>
-            <p class="section-subtitle">체계화된 프로세스와 합리적인 가격</p>
-            
-            <div class="solution-split fade-in">
-                <div class="solution-text">
-                    <h3>10단계 전문 청소 시스템</h3>
-                    <p>글라스핏은 체계화된 10단계 절차로 청소 퀄리티를 보장합니다. 유리창에 특화된 전문 세정제와 기술로 매장 외관을 개선하고 고객 신뢰도를 높입니다.</p>
-                    <p>독일 KIEHL사의 GlassKing과 구연산을 활용한 3번의 세정 과정으로 고착된 오염까지 완벽하게 제거합니다.</p>
-                </div>
-                <div class="solution-features">
-                    <div class="feature-box">
-                        <h4>✨ 매출 상승</h4>
-                        <p>고객 매장 체류시간 증가, 고객 시선 끌기 효과로 고객 유입 증가</p>
-                    </div>
-                    <div class="feature-box">
-                        <h4>😊 만족도 상승</h4>
-                        <p>시각적 만족감과 깨끗한 이미지로 음식에 대한 신뢰도 증가</p>
-                    </div>
-                    <div class="feature-box">
-                        <h4>💰 합리적 가격</h4>
-                        <p>작업 난이도별 명확한 가격표 제공, 투명한 비용 안내</p>
-                    </div>
-                </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">우리의 해결책</h2>
+        <p class="section-subtitle">체계화된 프로세스와 합리적인 가격</p>
+
+        <div class="solution-split fade-in">
+          <div class="solution-text">
+            <h3>10단계 전문 청소 시스템</h3>
+            <p>
+              글라스핏은 체계화된 10단계 절차로 청소 퀄리티를 보장합니다.
+              유리창에 특화된 전문 세정제와 기술로 매장 외관을 개선하고 고객
+              신뢰도를 높입니다.
+            </p>
+            <p>
+              독일 KIEHL사의 GlassKing과 구연산을 활용한 3번의 세정 과정으로
+              고착된 오염까지 완벽하게 제거합니다.
+            </p>
+          </div>
+          <div class="solution-features">
+            <div class="feature-box">
+              <h4>✨ 매출 상승</h4>
+              <p>
+                고객 매장 체류시간 증가, 고객 시선 끌기 효과로 고객 유입 증가
+              </p>
             </div>
+            <div class="feature-box">
+              <h4>😊 만족도 상승</h4>
+              <p>시각적 만족감과 깨끗한 이미지로 음식에 대한 신뢰도 증가</p>
+            </div>
+            <div class="feature-box">
+              <h4>💰 합리적 가격</h4>
+              <p>작업 난이도별 명확한 가격표 제공, 투명한 비용 안내</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Pricing Section (Redesigned) -->
     <section id="pricing">
-        <div class="pricing-wrapper">
-            <!-- Header -->
-            <div class="pricing-header fade-in">
-                <h2 class="section-title">맞춤형 가격 안내</h2>
-                <p class="section-subtitle">매장 규모와 오염도에 따른 차별화된 서비스</p>
-            </div>
-
-            <!-- Tabs -->
-            <div class="pricing-tabs fade-in">
-                <button class="pricing-tab active" onclick="switchTab('shop1')">
-                    🏢 1층 상가
-                </button>
-                <button class="pricing-tab" onclick="switchTab('shop2')">
-                    🏬 2층 상가
-                </button>
-                <button class="pricing-tab" onclick="switchTab('apt')">
-                    🏠 아파트
-                </button>
-            </div>
-
-            <!-- Panel: 1층 -->
-            <div class="pricing-panel active" id="panel-shop1">
-                <div class="pricing-cards fade-in">
-                    <!-- BASIC -->
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">⭐</div>
-                            <div class="p-card-name">BASIC</div>
-                            <div class="p-price-big">3<span class="p-unit">만원</span></div>
-                            <div class="p-price-sub">📋 작업시간 4~5시간</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>창문 일부 청소 (실내 or 실외)</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 주변 먼지 제거</li>
-                            </ul>
-                            <div class="p-extra-box">
-                                <div class="p-extra-box-title">🎬 시트지 제거 옵션</div>
-                                <p>기본료 20,000원 + 1m 초과 시 9,000원/m</p>
-                                <p class="p-note">
-                                    난이도 추가 +20~50% | 끈끈이 제거 +20,000원
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- PRO -->
-                    <div class="p-card highlight">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-badge">추천</div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">💎</div>
-                            <div class="p-card-name">PRO</div>
-                            <div class="p-price-big">
-                                5,000<span class="p-unit">원/m²</span>
-                            </div>
-                            <div class="p-price-sub">상담 후 최종 확정</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>고급 유리 청소 + 외벽 청소 (1층)</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 주변 먼지 제거</li>
-                                <li>독일 KIEHL GlassKing 사용</li>
-                            </ul>
-                            <div class="p-extra-box">
-                                <div class="p-extra-box-title">🎬 시트지 제거 옵션</div>
-                                <p>기본료 20,000원 + 1m 초과 시 9,000원/m</p>
-                                <p class="p-note">
-                                    난이도 추가 +20~50% | 끈끈이 제거 +20,000원
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 견적 -->
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">📞</div>
-                            <div class="p-card-name">견적 문의</div>
-                            <div
-                                class="p-price-big"
-                                style="font-size: 1.8rem; letter-spacing: -0.5px"
-                            >
-                                무료<span class="p-unit"> 견적</span>
-                            </div>
-                            <div class="p-price-sub">사진 제출 또는 현장 방문</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>사진 제출 또는 현장 방문 (무료)</li>
-                                <li>24시간 이내 답변 보장</li>
-                                <li>복잡한 오염·특수 케이스 전담</li>
-                                <li>방문 견적 시 교통비 없음</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Panel: 2층 -->
-            <div class="pricing-panel" id="panel-shop2">
-                <div class="pricing-cards fade-in">
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">⭐</div>
-                            <div class="p-card-name">BASIC</div>
-                            <div class="p-price-big">3<span class="p-unit">만원</span></div>
-                            <div class="p-price-sub">📋 작업시간 4~5시간</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>창문 일부 청소 (실내 or 실외)</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 주변 먼지 제거</li>
-                            </ul>
-                            <div class="p-extra-box">
-                                <div class="p-extra-box-title">🚙 스카이 차량 작업</div>
-                                <p>기본 출동 300,000원</p>
-                                <p>반나절 (약 4시간) 400,000원</p>
-                                <p>종일 (약 8시간) 600,000원</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-card highlight">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-badge">추천</div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">💎</div>
-                            <div class="p-card-name">PRO</div>
-                            <div class="p-price-big">
-                                5,000<span class="p-unit">원/m²</span>
-                            </div>
-                            <div class="p-price-sub">상담 후 최종 확정</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>고급 유리 청소 + 외벽 청소 (1~2층)</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 주변 먼지 제거</li>
-                                <li>독일 KIEHL GlassKing 사용</li>
-                            </ul>
-                            <div class="p-extra-box">
-                                <div class="p-extra-box-title">🚙 스카이 차량 작업</div>
-                                <p>기본 출동 300,000원</p>
-                                <p>반나절 (약 4시간) 400,000원</p>
-                                <p>종일 (약 8시간) 600,000원</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">📞</div>
-                            <div class="p-card-name">견적 문의</div>
-                            <div
-                                class="p-price-big"
-                                style="font-size: 1.8rem; letter-spacing: -0.5px"
-                            >
-                                무료<span class="p-unit"> 견적</span>
-                            </div>
-                            <div class="p-price-sub">사진 제출 또는 현장 방문</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>사진 제출 또는 현장 방문 (무료)</li>
-                                <li>24시간 이내 답변 보장</li>
-                                <li>2층 고층 특수 작업 전담</li>
-                                <li>스카이 차량 필요 시 별도 안내</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Panel: 아파트 -->
-            <div class="pricing-panel" id="panel-apt">
-                <div class="pricing-cards fade-in">
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">⭐</div>
-                            <div class="p-card-name">BASIC</div>
-                            <div class="p-price-big">
-                                8<span class="p-unit">만원~</span>
-                            </div>
-                            <div class="p-price-sub">📋 작업시간 5~6시간</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>창문 일부 청소 (실내 or 실외)</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 방충망 기본 청소</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="p-card highlight">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-badge">추천</div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">💎</div>
-                            <div class="p-card-name">PRO</div>
-                            <div class="p-price-big">
-                                10,000<span class="p-unit">원/평</span>
-                            </div>
-                            <div class="p-price-sub">상담 후 최종 확정</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>고급 유리 전체 청소</li>
-                                <li>재오염 방지 코팅</li>
-                                <li>창틀 + 방충망 정밀 청소</li>
-                                <li>독일 KIEHL GlassKing 사용</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="p-card">
-                        <div class="p-card-accent"></div>
-                        <div class="p-card-head">
-                            <div class="p-card-icon-wrap">📞</div>
-                            <div class="p-card-name">견적 문의</div>
-                            <div
-                                class="p-price-big"
-                                style="font-size: 1.8rem; letter-spacing: -0.5px"
-                            >
-                                무료<span class="p-unit"> 견적</span>
-                            </div>
-                            <div class="p-price-sub">사진 제출 또는 현장 방문</div>
-                        </div>
-                        <div class="p-card-body">
-                            <ul class="p-check-list">
-                                <li>사진 제출 또는 현장 방문 (무료)</li>
-                                <li>24시간 이내 답변 보장</li>
-                                <li>평형·층수·오염도 맞춤 견적</li>
-                                <li>방문 견적 시 교통비 없음</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bottom: Perks + Discount -->
-            <div class="pricing-bottom fade-in">
-                <!-- Perks -->
-                <div class="pricing-perks-block">
-                    <div class="perks-title">🛡️ 글라스핏 보장 혜택</div>
-                    <div class="perks-grid">
-                        <div class="perk-item">
-                            <div class="perk-icon">🛠️</div>
-                            <div class="perk-text">
-                                <h4>무료 A/S 7일</h4>
-                                <p>시공 후 7일 내 재방문 무료</p>
-                            </div>
-                        </div>
-                        <div class="perk-item">
-                            <div class="perk-icon">💯</div>
-                            <div class="perk-text">
-                                <h4>100% 환불 보장</h4>
-                                <p>결과 불만족 시 전액 환불</p>
-                            </div>
-                        </div>
-                        <div class="perk-item">
-                            <div class="perk-icon">⭐</div>
-                            <div class="perk-text">
-                                <h4>리뷰 10% 할인</h4>
-                                <p>리뷰 작성 시 다음 이용 할인</p>
-                            </div>
-                        </div>
-                        <div class="perk-item">
-                            <div class="perk-icon">📞</div>
-                            <div class="perk-text">
-                                <h4>24h 답변</h4>
-                                <p>사진/현장 무료 견적</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Discount -->
-                <div class="discount-block">
-                    <div class="discount-block-title">
-                        📅 연간 구독 할인 — 횟수가 늘수록 더 큰 혜택
-                    </div>
-                    <div class="discount-badges">
-                        <div class="d-badge">
-                            <span class="d-count">2회</span><span class="d-off">20%</span>
-                        </div>
-                        <div class="d-badge">
-                            <span class="d-count">3회</span><span class="d-off">30%</span>
-                        </div>
-                        <div class="d-badge">
-                            <span class="d-count">4회</span><span class="d-off">40%</span>
-                        </div>
-                        <div class="d-badge">
-                            <span class="d-count">6회</span><span class="d-off">50%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- QR CTA -->
-            <div class="qr-section fade-in">
-                <div class="qr-section-text">
-                    <h3>📱 지금 바로 예약하기</h3>
-                    <p>
-                        QR 코드를 스캔하거나 버튼을 눌러<br>카카오톡으로 바로
-                        문의하세요.
-                    </p>
-                    <a
-                        href="https://qr.kakao.com/talk/ebAp2TxCR6FyOexyQR49SwC.7ks-"
-                        target="_blank"
-                        class="qr-cta-badge"
-                    >
-                        <span class="kakao-icon" aria-hidden="true">
-                            <img src="images/kakaoimg.png" alt="">
-                        </span>
-                        <span>카카오톡 상담 시작</span>
-                    </a>
-                </div>
-                <a
-                    href="https://qr.kakao.com/talk/ebAp2TxCR6FyOexyQR49SwC.7ks-"
-                    target="_blank"
-                    class="qr-img-wrap"
-                >
-                    <img src="images/QR_img.png" alt="QR 코드">
-                </a>
-            </div>
+      <div class="pricing-wrapper">
+        <!-- Header -->
+        <div class="pricing-header fade-in">
+          <h2 class="section-title">맞춤형 가격 안내</h2>
+          <p class="section-subtitle">
+            매장 규모와 오염도에 따른 차별화된 서비스
+          </p>
         </div>
+
+        <!-- Tabs -->
+        <div class="pricing-tabs fade-in">
+          <button class="pricing-tab active" onclick="switchTab('shop1')">
+            🏢 1층 상가
+          </button>
+          <button class="pricing-tab" onclick="switchTab('shop2')">
+            🏬 2층 상가
+          </button>
+          <button class="pricing-tab" onclick="switchTab('apt')">
+            🏠 아파트
+          </button>
+        </div>
+
+        <!-- Panel: 1층 -->
+        <div class="pricing-panel active" id="panel-shop1">
+          <div class="pricing-cards fade-in">
+            <!-- BASIC -->
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">⭐</div>
+                <div class="p-card-name">BASIC</div>
+                <div class="p-price-big">3<span class="p-unit">만원</span></div>
+                <div class="p-price-sub">📋 작업시간 4~5시간</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>창문 일부 청소 (실내 or 실외)</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 주변 먼지 제거</li>
+                </ul>
+                <div class="p-extra-box">
+                  <div class="p-extra-box-title">🎬 시트지 제거 옵션</div>
+                  <p>기본료 20,000원 + 1m 초과 시 9,000원/m</p>
+                  <p class="p-note">
+                    난이도 추가 +20~50% | 끈끈이 제거 +20,000원
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PRO -->
+            <div class="p-card highlight">
+              <div class="p-card-accent"></div>
+              <div class="p-card-badge">추천</div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">💎</div>
+                <div class="p-card-name">PRO</div>
+                <div class="p-price-big">
+                  5,000<span class="p-unit">원/m²</span>
+                </div>
+                <div class="p-price-sub">상담 후 최종 확정</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>고급 유리 청소 + 외벽 청소 (1층)</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 주변 먼지 제거</li>
+                  <li>독일 KIEHL GlassKing 사용</li>
+                </ul>
+                <div class="p-extra-box">
+                  <div class="p-extra-box-title">🎬 시트지 제거 옵션</div>
+                  <p>기본료 20,000원 + 1m 초과 시 9,000원/m</p>
+                  <p class="p-note">
+                    난이도 추가 +20~50% | 끈끈이 제거 +20,000원
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 견적 -->
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">📞</div>
+                <div class="p-card-name">견적 문의</div>
+                <div
+                  class="p-price-big"
+                  style="font-size: 1.8rem; letter-spacing: -0.5px"
+                >
+                  무료<span class="p-unit"> 견적</span>
+                </div>
+                <div class="p-price-sub">사진 제출 또는 현장 방문</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>사진 제출 또는 현장 방문 (무료)</li>
+                  <li>24시간 이내 답변 보장</li>
+                  <li>복잡한 오염·특수 케이스 전담</li>
+                  <li>방문 견적 시 교통비 없음</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel: 2층 -->
+        <div class="pricing-panel" id="panel-shop2">
+          <div class="pricing-cards fade-in">
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">⭐</div>
+                <div class="p-card-name">BASIC</div>
+                <div class="p-price-big">3<span class="p-unit">만원</span></div>
+                <div class="p-price-sub">📋 작업시간 4~5시간</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>창문 일부 청소 (실내 or 실외)</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 주변 먼지 제거</li>
+                </ul>
+                <div class="p-extra-box">
+                  <div class="p-extra-box-title">🚙 스카이 차량 작업</div>
+                  <p>기본 출동 300,000원</p>
+                  <p>반나절 (약 4시간) 400,000원</p>
+                  <p>종일 (약 8시간) 600,000원</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-card highlight">
+              <div class="p-card-accent"></div>
+              <div class="p-card-badge">추천</div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">💎</div>
+                <div class="p-card-name">PRO</div>
+                <div class="p-price-big">
+                  5,000<span class="p-unit">원/m²</span>
+                </div>
+                <div class="p-price-sub">상담 후 최종 확정</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>고급 유리 청소 + 외벽 청소 (1~2층)</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 주변 먼지 제거</li>
+                  <li>독일 KIEHL GlassKing 사용</li>
+                </ul>
+                <div class="p-extra-box">
+                  <div class="p-extra-box-title">🚙 스카이 차량 작업</div>
+                  <p>기본 출동 300,000원</p>
+                  <p>반나절 (약 4시간) 400,000원</p>
+                  <p>종일 (약 8시간) 600,000원</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">📞</div>
+                <div class="p-card-name">견적 문의</div>
+                <div
+                  class="p-price-big"
+                  style="font-size: 1.8rem; letter-spacing: -0.5px"
+                >
+                  무료<span class="p-unit"> 견적</span>
+                </div>
+                <div class="p-price-sub">사진 제출 또는 현장 방문</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>사진 제출 또는 현장 방문 (무료)</li>
+                  <li>24시간 이내 답변 보장</li>
+                  <li>2층 고층 특수 작업 전담</li>
+                  <li>스카이 차량 필요 시 별도 안내</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel: 아파트 -->
+        <div class="pricing-panel" id="panel-apt">
+          <div class="pricing-cards fade-in">
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">⭐</div>
+                <div class="p-card-name">BASIC</div>
+                <div class="p-price-big">
+                  8<span class="p-unit">만원~</span>
+                </div>
+                <div class="p-price-sub">📋 작업시간 5~6시간</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>창문 일부 청소 (실내 or 실외)</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 방충망 기본 청소</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="p-card highlight">
+              <div class="p-card-accent"></div>
+              <div class="p-card-badge">추천</div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">💎</div>
+                <div class="p-card-name">PRO</div>
+                <div class="p-price-big">
+                  10,000<span class="p-unit">원/평</span>
+                </div>
+                <div class="p-price-sub">상담 후 최종 확정</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>고급 유리 전체 청소</li>
+                  <li>재오염 방지 코팅</li>
+                  <li>창틀 + 방충망 정밀 청소</li>
+                  <li>독일 KIEHL GlassKing 사용</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="p-card">
+              <div class="p-card-accent"></div>
+              <div class="p-card-head">
+                <div class="p-card-icon-wrap">📞</div>
+                <div class="p-card-name">견적 문의</div>
+                <div
+                  class="p-price-big"
+                  style="font-size: 1.8rem; letter-spacing: -0.5px"
+                >
+                  무료<span class="p-unit"> 견적</span>
+                </div>
+                <div class="p-price-sub">사진 제출 또는 현장 방문</div>
+              </div>
+              <div class="p-card-body">
+                <ul class="p-check-list">
+                  <li>사진 제출 또는 현장 방문 (무료)</li>
+                  <li>24시간 이내 답변 보장</li>
+                  <li>평형·층수·오염도 맞춤 견적</li>
+                  <li>방문 견적 시 교통비 없음</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: Perks + Discount -->
+        <div class="pricing-bottom fade-in">
+          <!-- Perks -->
+          <div class="pricing-perks-block">
+            <div class="perks-title">🛡️ 글라스핏 보장 혜택</div>
+            <div class="perks-grid">
+              <div class="perk-item">
+                <div class="perk-icon">🛠️</div>
+                <div class="perk-text">
+                  <h4>무료 A/S 7일</h4>
+                  <p>시공 후 7일 내 재방문 무료</p>
+                </div>
+              </div>
+              <div class="perk-item">
+                <div class="perk-icon">💯</div>
+                <div class="perk-text">
+                  <h4>100% 환불 보장</h4>
+                  <p>결과 불만족 시 전액 환불</p>
+                </div>
+              </div>
+              <div class="perk-item">
+                <div class="perk-icon">⭐</div>
+                <div class="perk-text">
+                  <h4>리뷰 10% 할인</h4>
+                  <p>리뷰 작성 시 다음 이용 할인</p>
+                </div>
+              </div>
+              <div class="perk-item">
+                <div class="perk-icon">📞</div>
+                <div class="perk-text">
+                  <h4>24h 답변</h4>
+                  <p>사진/현장 무료 견적</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Discount -->
+          <div class="discount-block">
+            <div class="discount-block-title">
+              📅 연간 구독 할인 — 횟수가 늘수록 더 큰 혜택
+            </div>
+            <div class="discount-badges">
+              <div class="d-badge">
+                <span class="d-count">2회</span><span class="d-off">20%</span>
+              </div>
+              <div class="d-badge">
+                <span class="d-count">3회</span><span class="d-off">30%</span>
+              </div>
+              <div class="d-badge">
+                <span class="d-count">4회</span><span class="d-off">40%</span>
+              </div>
+              <div class="d-badge">
+                <span class="d-count">6회</span><span class="d-off">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- QR CTA -->
+        <div class="qr-section fade-in">
+          <div class="qr-section-text">
+            <h3>📱 지금 바로 예약하기</h3>
+            <p>
+              QR 코드를 스캔하거나 버튼을 눌러<br />카카오톡으로 바로
+              문의하세요.
+            </p>
+            <a
+              href="https://qr.kakao.com/talk/ebAp2TxCR6FyOexyQR49SwC.7ks-"
+              target="_blank"
+              class="qr-cta-badge"
+            >
+              <span class="kakao-icon" aria-hidden="true">
+                <img src="images/kakaoimg.png" alt="" />
+              </span>
+              <span>카카오톡 상담 시작</span>
+            </a>
+          </div>
+          <a
+            href="https://qr.kakao.com/talk/ebAp2TxCR6FyOexyQR49SwC.7ks-"
+            target="_blank"
+            class="qr-img-wrap"
+          >
+            <img src="images/QR_img.png" alt="QR 코드" />
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- Process Section -->
     <section id="process">
-        <div class="section-wrapper">
-            <h2 class="section-title">서비스 제공 과정</h2>
-            <p class="section-subtitle">체계화된 10단계 전문 청소 프로세스</p>
-            
-            <div class="timeline">
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">01</div>
-                    <div class="timeline-content">
-                        <h3>오염 진단 - 청소 계획 수립</h3>
-                        <p>매장의 유리창 오염 상태를 정밀하게 진단하고, 최적의 청소 계획을 수립합니다.</p>
-                    </div>
-                </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">서비스 제공 과정</h2>
+        <p class="section-subtitle">체계화된 10단계 전문 청소 프로세스</p>
 
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">02</div>
-                    <div class="timeline-content">
-                        <h3>큰 먼지, 거미줄 제거</h3>
-                        <p>작업 전 표면의 큰 먼지와 거미줄을 제거하여 세척 효율을 높입니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">03</div>
-                    <div class="timeline-content">
-                        <h3>1차 세정제 바름</h3>
-                        <p>전문 유리 세정제(GlassKing)를 도포하여 오염물을 분해합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">04</div>
-                    <div class="timeline-content">
-                        <h3>오염 불리기 (5분)</h3>
-                        <p>세정제가 오염물을 충분히 분해할 수 있도록 적절한 시간을 둡니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">05</div>
-                    <div class="timeline-content">
-                        <h3>거품 제거 및 2차 세정제 버핑</h3>
-                        <p>1차 세정제를 제거하고 2차 세정제를 도포하여 완벽한 세척을 진행합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">06</div>
-                    <div class="timeline-content">
-                        <h3>거품제거 및 잔수제거</h3>
-                        <p>깨끗한 물로 거품과 잔여 세정제를 완전히 제거합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">07</div>
-                    <div class="timeline-content">
-                        <h3>구연산 사용 고착된 물 때 제거</h3>
-                        <p>구연산을 활용하여 고착된 물 때를 산성 세제로 효과적으로 제거합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">08</div>
-                    <div class="timeline-content">
-                        <h3>3차 세정제 버핑 (중화작업)</h3>
-                        <p>산성 세제를 중화하고 유리창을 보호하는 마무리 작업을 진행합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">09</div>
-                    <div class="timeline-content">
-                        <h3>거품제거 및 잔수제거</h3>
-                        <p>마지막 세정제를 완전히 제거하고 유리창 표면을 깨끗이 합니다.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item fade-in">
-                    <div class="timeline-number">10</div>
-                    <div class="timeline-content">
-                        <h3>유리용 극세사로 마무리 - 고객 확인</h3>
-                        <p>전용 극세사 패드로 완벽하게 마무리하고 고객 확인 후 서비스를 완료합니다.</p>
-                    </div>
-                </div>
+        <div class="timeline">
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">01</div>
+            <div class="timeline-content">
+              <h3>오염 진단 - 청소 계획 수립</h3>
+              <p>
+                매장의 유리창 오염 상태를 정밀하게 진단하고, 최적의 청소 계획을
+                수립합니다.
+              </p>
             </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">02</div>
+            <div class="timeline-content">
+              <h3>큰 먼지, 거미줄 제거</h3>
+              <p>
+                작업 전 표면의 큰 먼지와 거미줄을 제거하여 세척 효율을 높입니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">03</div>
+            <div class="timeline-content">
+              <h3>1차 세정제 바름</h3>
+              <p>전문 유리 세정제(GlassKing)를 도포하여 오염물을 분해합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">04</div>
+            <div class="timeline-content">
+              <h3>오염 불리기 (5분)</h3>
+              <p>
+                세정제가 오염물을 충분히 분해할 수 있도록 적절한 시간을 둡니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">05</div>
+            <div class="timeline-content">
+              <h3>거품 제거 및 2차 세정제 버핑</h3>
+              <p>
+                1차 세정제를 제거하고 2차 세정제를 도포하여 완벽한 세척을
+                진행합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">06</div>
+            <div class="timeline-content">
+              <h3>거품제거 및 잔수제거</h3>
+              <p>깨끗한 물로 거품과 잔여 세정제를 완전히 제거합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">07</div>
+            <div class="timeline-content">
+              <h3>구연산 사용 고착된 물 때 제거</h3>
+              <p>
+                구연산을 활용하여 고착된 물 때를 산성 세제로 효과적으로
+                제거합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">08</div>
+            <div class="timeline-content">
+              <h3>3차 세정제 버핑 (중화작업)</h3>
+              <p>
+                산성 세제를 중화하고 유리창을 보호하는 마무리 작업을 진행합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">09</div>
+            <div class="timeline-content">
+              <h3>거품제거 및 잔수제거</h3>
+              <p>
+                마지막 세정제를 완전히 제거하고 유리창 표면을 깨끗이 합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-number">10</div>
+            <div class="timeline-content">
+              <h3>유리용 극세사로 마무리 - 고객 확인</h3>
+              <p>
+                전용 극세사 패드로 완벽하게 마무리하고 고객 확인 후 서비스를
+                완료합니다.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Learning Section -->
     <section id="learning">
-        <div class="section-wrapper">
-            <h2 class="section-title">사업을 통해 배운 점</h2>
-            <p class="section-subtitle">실전 경험에서 얻은 인사이트</p>
-            
-            <div class="learning-grid">
-                <div class="learning-item fade-in">
-                    <h3>고객 중심 서비스 설계</h3>
-                    <p>고객 불편을 명확히 파악한 후 서비스 절차를 설계하는 것이 중요함을 깨달았습니다. 실제 매장주들의 니즈를 직접 듣고 반영하여 서비스를 개선했습니다.</p>
-                </div>
-                <div class="learning-item fade-in">
-                    <h3>맞춤형 솔루션의 가치</h3>
-                    <p>매장마다 오염도와 요구사항이 달라 맞춤형 서비스의 필요성을 이해했습니다. 획일화된 서비스가 아닌 상황별 최적의 솔루션 제공이 핵심입니다.</p>
-                </div>
-                <div class="learning-item fade-in">
-                    <h3>시스템화의 중요성</h3>
-                    <p>체계적인 작업 프로세스가 서비스 품질과 신뢰도를 높인다는 점을 확인했습니다. 10단계 청소 프로세스를 확립하여 일관된 품질을 유지할 수 있게 되었습니다.</p>
-                </div>
-            </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">사업을 통해 배운 점</h2>
+        <p class="section-subtitle">실전 경험에서 얻은 인사이트</p>
+
+        <div class="learning-grid">
+          <div class="learning-item fade-in">
+            <h3>고객 중심 서비스 설계</h3>
+            <p>
+              고객 불편을 명확히 파악한 후 서비스 절차를 설계하는 것이 중요함을
+              깨달았습니다. 실제 매장주들의 니즈를 직접 듣고 반영하여 서비스를
+              개선했습니다.
+            </p>
+          </div>
+          <div class="learning-item fade-in">
+            <h3>맞춤형 솔루션의 가치</h3>
+            <p>
+              매장마다 오염도와 요구사항이 달라 맞춤형 서비스의 필요성을
+              이해했습니다. 획일화된 서비스가 아닌 상황별 최적의 솔루션 제공이
+              핵심입니다.
+            </p>
+          </div>
+          <div class="learning-item fade-in">
+            <h3>시스템화의 중요성</h3>
+            <p>
+              체계적인 작업 프로세스가 서비스 품질과 신뢰도를 높인다는 점을
+              확인했습니다. 10단계 청소 프로세스를 확립하여 일관된 품질을 유지할
+              수 있게 되었습니다.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Team Section -->
     <section id="team">
-        <div class="section-wrapper">
-            <h2 class="section-title">팀 정보</h2>
-            <p class="section-subtitle">글라스핏을 만든 사람들</p>
-            
-            <div class="team-card fade-in">
-                <div class="team-info-row">
-                    <div class="team-label">대표자</div>
-                    <div class="team-value">안성열</div>
-                </div>
-                <div class="team-info-row">
-                    <div class="team-label">팀명</div>
-                    <div class="team-value">글라스핏 (GLASS FIT)</div>
-                </div>
-                <div class="team-info-row">
-                    <div class="team-label">산업 분야</div>
-                    <div class="team-value">청소 서비스업</div>
-                </div>
-                <div class="team-info-row">
-                    <div class="team-label">사업 형태</div>
-                    <div class="team-value">유리창 전문 청소 서비스 (사업화 완료)</div>
-                </div>
-            </div>
+      <div class="section-wrapper">
+        <h2 class="section-title">팀 정보</h2>
+        <p class="section-subtitle">글라스핏을 만든 사람들</p>
+
+        <div class="team-card fade-in">
+          <div class="team-info-row">
+            <div class="team-label">대표자</div>
+            <div class="team-value">신명기</div>
+          </div>
+          <div class="team-info-row">
+            <div class="team-label">팀명</div>
+            <div class="team-value">글라스핏 (GLASS FIT)</div>
+          </div>
+          <div class="team-info-row">
+            <div class="team-label">산업 분야</div>
+            <div class="team-value">청소 서비스업</div>
+          </div>
+          <div class="team-info-row">
+            <div class="team-label">사업 형태</div>
+            <div class="team-value">유리창 전문 청소 서비스 (사업화 완료)</div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <img src="images/Img_files_logo_header.png" alt="글라스핏 로고" class="footer-logo">
-                <h3>글라스핏 GLASS FIT</h3>
-                <p>당신의 공간, 우리가 빛나게 합니다</p>
-                <p>유리창 전문 청소 서비스</p>
-            </div>
-            <div class="footer-section">
-                <h3>서비스</h3>
-                <p>맞춤형 유리창 청소</p>
-                <p>오염 방지 코팅</p>
-                <p>정기 관리</p>
-                <p>리터치 서비스</p>
-            </div>
-            <div class="footer-section">
-                <h3>소셜 미디어</h3>
-                <a href="https://www.instagram.com/glassfit._?igsh=MW9rY2MycGt5eGZkaw==" target="_blank" class="social-link">
-                    <svg class="instagram-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                    </svg>
-                    Instagram
-                </a>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <img
+            src="images/Img_files_logo_header.png"
+            alt="글라스핏 로고"
+            class="footer-logo"
+          />
+          <h3>글라스핏 GLASS FIT</h3>
+          <p>당신의 공간, 우리가 빛나게 합니다</p>
+          <p>유리창 전문 청소 서비스</p>
         </div>
-        <div class="footer-bottom">
-            <!-- 지원 기관 로고 -->
-            <div class="support-logos" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 30px; flex-wrap: wrap;">
-                <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 20px 30px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
-                    <img src="images/startup-logo.png" alt="대학혁신지원사업단" style="height: 50px; width: auto;">
-                </div>
-                <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 20px 30px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
-                    <img src="images/pcu-logo.png" alt="배재대학교" style="height: 45px; width: auto;">
-                </div>
-            </div>
-            <p class="footer-support">본 프로젝트는 배재대학교 창업지원단의 지원을 받았습니다.</p>
-            <p>© 2025 GLASS FIT. All Rights Reserved.</p>
+        <div class="footer-section">
+          <h3>서비스</h3>
+          <p>맞춤형 유리창 청소</p>
+          <p>오염 방지 코팅</p>
+          <p>정기 관리</p>
+          <p>리터치 서비스</p>
         </div>
+        <div class="footer-section">
+          <h3>소셜 미디어</h3>
+          <a
+            href="https://www.instagram.com/glassfit._?igsh=MW9rY2MycGt5eGZkaw=="
+            target="_blank"
+            class="social-link"
+          >
+            <svg class="instagram-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <!-- 지원 기관 로고 -->
+        <div
+          class="support-logos"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+          "
+        >
+          <div
+            style="
+              background: rgba(255, 255, 255, 0.05);
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-radius: 15px;
+              padding: 20px 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              min-width: 200px;
+            "
+          >
+            <img
+              src="images/startup-logo.png"
+              alt="대학혁신지원사업단"
+              style="height: 50px; width: auto"
+            />
+          </div>
+          <div
+            style="
+              background: rgba(255, 255, 255, 0.05);
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-radius: 15px;
+              padding: 20px 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              min-width: 200px;
+            "
+          >
+            <img
+              src="images/pcu-logo.png"
+              alt="배재대학교"
+              style="height: 45px; width: auto"
+            />
+          </div>
+        </div>
+        <p class="footer-support">
+          본 프로젝트는 배재대학교 창업지원단의 지원을 받았습니다.
+        </p>
+        <p>© 2025 GLASS FIT. All Rights Reserved.</p>
+      </div>
     </footer>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
